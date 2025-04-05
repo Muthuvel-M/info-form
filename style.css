@@ -12,14 +12,13 @@ body {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 500px;
   }
 
   h2 {
     text-align: center;
-    color: #111827;
+    color: black;
   }
 
   label {
@@ -45,12 +44,12 @@ body {
   input[type="email"],
   input[type="tel"],
   input[type="date"] {
-    width: 100%;
+    width: 95%;
     padding: 10px;
-    border: 1px solid #d1d5db;
+    border: 2px solid #0066ff;
     border-radius: 5px;
     font-size: 16px;
-  }
+ }
 
   input[type="radio"]{
     margin-right: 8px;
@@ -58,6 +57,7 @@ body {
 
   }
   input[type="checkbox"] {
+    margin-top: 12px;
     margin-right: 8px;
   }
 
